@@ -1,0 +1,24 @@
+# Project Description
+This project aims to build a system for extracting structured data from unstructured sources using LangGraph and the Google Gemini API. The system should support agentic workflows with human-in-the-loop capabilities.
+
+# Technologies
+- Programming Language: Python
+- Libraries: langchain, langgraph, google-generativeai
+- API: Google Gemini API
+
+# Application Structure
+The application should consist of the following nodes in LangGraph:
+1. Input Node: Receives unstructured text and user guidance.
+2. Planning Node: Uses the Gemini API to generate an extraction plan.
+3. Extraction Node: Executes the plan to extract structured data.
+4. Presentation Node: Displays the extracted data for user review.
+5. Feedback Node: Collects user feedback for refinements.
+6. Decision Node: Determines the next step based on feedback.
+
+# Human in the Loop
+The system should support checkpointing to allow user intervention at key stages.
+
+# Style Guidelines
+- Use standard Python naming conventions.
+- Ensure code is well-commented and readable.
+- Follow best practices for error handling and API usage.

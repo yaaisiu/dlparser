@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo 
+
+# config files with secrets
+.cursor/mcp.json
+mcp_config.json
+npx_github_mcp.json
