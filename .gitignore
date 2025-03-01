@@ -7,6 +7,9 @@ npm-debug.log
 yarn-debug.log
 yarn-error.log
 
+# Python things
+venv/
+
 # OS specific files
 .DS_Store
 Thumbs.db
@@ -21,3 +24,6 @@ Thumbs.db
 .cursor/mcp.json
 mcp_config.json
 npx_github_mcp.json
+
+# shell scripts with secrets
+shell_scripts/
